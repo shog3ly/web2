@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+  html {
+     font-size: 10px;
+    }
+
+  body{
+  font-family: 'Cairo', sans-serif; 
+    }
+  
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 55px;
+      padding: 0 16px;
+    }
+
+  .left-section {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+  .left-section image{
+      width: 50%;
+      padding-left: 15px;
+    }
+
+  .centar{
+    display: flex;
+    align-items: center;
+    }
+
+  .centar form{
+    display: flex;
+    height: 42px;
+    width: 628px;
+  }
+
+  .centar form input{
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+    padding: 10px;
+    font-size: 1,6rem;
+    border: 1px solid #d3d3d3;
+  }
+
+  .centar form button{
+    width: 65px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    background: #f7f7f7;
+    cursor: pointer;
+    padding-top: 4px;
+  }
+
+  .centar form button:hover{
+    background-color: #f0f0f0;
+  }
+
+  .center .mic{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center
+  }
+
+  .right a{
+    padding: right 16px; 
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+  .content-area{
+    height: calc(100vh - 55px);
+    display: flex;
+    background-color: #f0f0f0;
+  }
+  .aside{
+    height: 100%;
+    width: 200px;
+    background-color: white;
+    overflow-y:auto;
+  }
+  .nav{
+    width: 100%;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+  }
+  nav .nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  .nav-link samp{
+    margin-left: 25px;
+    font-size: 1.6rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: black;
+  }
+  .active {
+    background-color: white;
+
+  }
+  
+  hr{
+    margin: 10px 0;
+    height: 1px;
+    background-color: white;
+  }
+  
